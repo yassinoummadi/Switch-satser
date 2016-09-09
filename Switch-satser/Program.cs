@@ -40,10 +40,33 @@ namespace Switch_satser
                 case 'w': Console.Write("You walk west"); break;
                 case 'E': Console.Write("You walk east");  break;
                 case 'e': Console.Write("You walk east"); break;
-            **/
-                   
             }
-            Console.ReadLine();
+            **/
+            /** Övning 3
+            Console.Write("Skriv det första heltal: ");
+            string tal1 = Console.ReadLine();
+            int t1 = int.Parse(tal1);
+
+            Console.Write("Välj räknesätt: ");
+            string inmatat = Console.ReadLine();
+            char op = char.Parse(inmatat);
+
+            Console.Write("Skriv det andra heltalet: ");
+            string tal2 = Console.ReadLine();
+            int t2 = int.Parse(tal2);
+
+            
+
+            switch (op)
+            {
+                case '+': Console.WriteLine("Svar: " + (t1 + t2)); break;
+                case '-': Console.WriteLine("Svar: " + (t1 - t2)); break;
+                case '*': Console.WriteLine("Svar: " + (t1 * t2)); break;
+                case '/': Console.WriteLine("Svar: " + (t1 / t2)); break;
+
+            }
+            **/
+        }
+            
         }
     }
-}
