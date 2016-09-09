@@ -25,7 +25,7 @@ namespace Switch_satser
             }
 
             **/
-            /**
+            /** Övning 2
             Console.Write("Skriv väderstreck: ");
             string bokstav = Console.ReadLine();
             char bokstav1 = char.Parse(bokstav);
